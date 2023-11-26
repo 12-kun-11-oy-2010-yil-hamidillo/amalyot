@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto';
+}
+
+a{
+    text-decoration: none;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin: 16px 165px 16px 184px;
+    align-items: center;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header__ul__li--a{
+    color:#000;    
+}
+
+.a{
+    display: flex;
+    padding: 10px 22px 10px 23px;
+    justify-content: center;
+    align-items: center;
+    background: #C13512;
+    color: #fff;
+}
